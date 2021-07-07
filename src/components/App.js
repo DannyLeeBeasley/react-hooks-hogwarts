@@ -1,12 +1,13 @@
 import React from "react";
 import Nav from "./Nav";
-
-import hogs from "../porkers_data";
+import PigsList from './PigsList';
+import hogs_data from "../porkers_data";
 
 function App() {
   return (
     <div className="App">
       <Nav />
+      <PigsList hogs={hogs_data}/>
     </div>
   );
 }
